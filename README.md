@@ -14,7 +14,7 @@ KaseiCoin will be a fungible token that’s ERC-20 compliant. A crowdsale is bei
 2. Crowdsale Contract
 3. Deployer Contract
 
-# Evaluation Evidence
+## Evaluation Evidence
 
 In the `README.md` file of your GitHub repository for this homework assignment, you’ll create a section named Evaluation Evidence. In this section, you’ll share screenshots of your work from each subsection of the assignment.
 
