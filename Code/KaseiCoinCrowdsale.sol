@@ -9,7 +9,7 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale {
     constructor(
         uint rate,
         address payable wallet,
-        kaseiCoin token
+        KaseiCoin token
     ) 
         Crowdsale(rate, wallet, token)
         public
@@ -33,12 +33,10 @@ contract KaseiCoinCrowdsaleDeployer {
        string memory symbol,
        address payable wallet
     ) 
-       public 
-       
-    {
+       public {
 
         // Create a new instance of the KaseiCoin contract.
-        KaseiCoin token = new kaseiCoin(name, symbol, 0);
+        KaseiCoin token = new KaseiCoin(name, symbol, 0);
         
         // Assign the token contract’s address to the `kasei_token_address` variable.
         kasei_token_address = address(token);
